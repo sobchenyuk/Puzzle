@@ -26,7 +26,7 @@ gulp.task('javascript', () =>
         .pipe(babel({
             presets: ['@babel/env']
         }))
-        .pipe(gulp.dest('public'))
+        .pipe(gulp.dest('./'))
         .pipe(reload({stream: true}))
 );
 
